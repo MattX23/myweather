@@ -34,11 +34,11 @@
                         @if(Auth::user()->email_verified_at)
                             <a class="dropdown-item pointer" data-toggle="modal" data-target="#locationModal"
                                onclick="event.preventDefault();">
-                                Change Preferred Location
+                                {{ __('links.preferred_location') }}
                             </a>
                             <a class="dropdown-item pointer" data-toggle="modal" data-target="#signupModal"
                                onclick="event.preventDefault();">
-                                Mailing List
+                                {{ __('links.mailing_list') }}
                             </a>
                         @endif
                             <a class="dropdown-item" href="{{ route('logout') }}"
