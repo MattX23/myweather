@@ -1,0 +1,60 @@
+.bottom-buffer-md {
+    margin-bottom: 20px;
+}
+.card {
+    opacity: 0.9;
+}
+.city-error {
+    position: relative;
+    top: 8px;
+    color: darkred;
+}
+.city-search {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.current-temp {
+    font-size: 30px;
+    padding: 12px;
+}
+.days-block {
+    padding: 15px;
+}
+.days-block:hover {
+    background-color: rgba(13,134, 134, 0.6);
+    border-radius: 24px;
+    color: $white;
+}
+.details-container {
+    min-height: 400px;
+}
+.main-body {
+    background-image: url($default-image);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 95vh;
+}
+.pointer {
+    cursor: pointer;
+}
+.register-error {
+    color: red;
+    padding-left: 5px;
+}
+.search-box {
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 18px;
+    min-height: 100px;
+}
+.top-buffer-md {
+    margin-top: 20px;
+}
+.top-buffer-sm {
+    margin-top: 10px;
+}
+.weather-icon {
+    max-width: 60px;
+}
