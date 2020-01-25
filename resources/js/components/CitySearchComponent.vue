@@ -38,6 +38,7 @@
         },
         mounted() {
             EventBus.$on('reset-search', () => {
+                this.cityId = null;
                 this.searching = false;
             })
         },
@@ -61,7 +62,7 @@
 
                 axios.post('/api/location/set', data)
                     .then(() => {
-                        EventBus.$emit('search-complete');
+                        EventBus.$emit('search-complete', this.cityId);
                         EventBus.$emit('close-modal');
                     });
             },
